@@ -17,4 +17,18 @@
   .post-actions {
     margin-bottom: 0;
   }
+
+  .topic-map {
+    border-radius: 4px;
+    border: 1px solid var(--primary-low) !important;
+    overflow: hidden;
+
+    .map {
+      border-top: 1px solid var(--primary-low);
+
+      &:first-of-type {
+        border-top: none;
+      }
+    }
+  }
 }
