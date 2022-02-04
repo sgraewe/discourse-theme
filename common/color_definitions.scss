@@ -1,0 +1,11 @@
+@import "common/foundation/variables";
+@import "variables";
+
+// dark-light-choose -------------------------------
+$body-bg-color: dark-light-choose($body-bg, $body-bg-dark);
+$body-bg-image: dark-light-choose($body-bg-img, $body-bg-img-dark);
+
+:root {
+  --body_background-color: #{$body-bg-color};
+  --body_background-image: url(#{$body-bg-image});
+}

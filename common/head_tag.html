@@ -1,0 +1,89 @@
+<script type="text/javascript">
+  var klaroConfig = {
+    version: 1,
+    elementID: 'klaro',
+    styling: {
+      theme: ['light', 'top', 'wide'],
+    },
+    noAutoLoad: false,
+    htmlTexts: true,
+    embedded: false,
+    groupByPurpose: true,
+    storageMethod: 'cookie',
+    cookieName: 'klaro',
+    cookieExpiresAfterDays: 365,
+    mustConsent: true,
+    acceptAll: true,
+    hideDeclineAll: false,
+    hideLearnMore: false,
+    noticeAsModal: true,
+    translations: {
+      de: {
+        privacyPolicyUrl: '/#datenschutz',
+        consentModal: {
+          description:
+            'Hier können Sie einsehen und anpassen, welche Information wir über Sie sammeln. Einträge die als "Beispiel" gekennzeichnet sind dienen lediglich zu Demonstrationszwecken und werden nicht wirklich verwendet.',
+        },
+        technical: {
+          description: 'Technisch benötigt',
+          title: "Technisch"
+        },
+        twitter: {
+          description: 'Twitter einbindungen',
+          title: 'Twitter',
+        },
+        youtube: {
+          description: 'youtube einbindungen',
+          title: 'YouTube',
+        },
+        matomo: {
+          description: 'Sammeln von Besucherstatistiken',
+        },
+        camera: {
+          description:
+            'Eine Überwachungskamera (nur ein Beispiel zu IMG-Tags)',
+        },
+        cloudflare: {
+          description: 'Schutz gegen DDoS-Angriffe',
+        },
+        intercom: {
+          description:
+            'Chat Widget & Sammeln von Besucherstatistiken (nur ein Beispiel)',
+        },
+        mouseflow: {
+          description: 'Echtzeit-Benutzeranalyse (nur ein Beispiel)',
+        },
+        googleFonts: {
+          description: 'Web-Schriftarten von Google gehostet',
+        },
+        purposes: {
+          analytics: 'Besucher-Statistiken',
+          security: 'Sicherheit',
+          livechat: 'Live Chat',
+          advertising: 'Anzeigen von Werbung',
+          styling: 'Styling',
+        },
+      },
+    },
+    services: [
+      {
+        name: 'technical',
+        required: true,
+        purposes: ['technical'],
+      },
+      {
+        name: 'twitter',
+        default: false,
+        contextualConsentOnly: true,
+        purposes: ['technical'],
+      },
+      {
+        name: 'youtube',
+        default: true,
+        purposes: ['technical'],
+      },
+    ],
+  };
+</script>
+<script defer type="text/javascript" src="https://cdn.kiprotect.com/klaro/v0.7.18/klaro.js"></script>
+<link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7.18/klaro.min.css" />

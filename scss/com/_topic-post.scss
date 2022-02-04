@@ -1,0 +1,20 @@
+.topic-post {
+  @include box;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+
+  .topic-avatar,
+  .topic-body {
+    border-top: none !important;
+  }
+
+  .topic-meta-data,
+  .post-menu-area {
+    font-size: 0.875rem;
+    margin-bottom: 0;
+  }
+
+  .post-actions {
+    margin-bottom: 0;
+  }
+}

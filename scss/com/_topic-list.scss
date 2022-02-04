@@ -1,0 +1,37 @@
+.topic-list {
+  @include box;
+
+  tr:last-of-type {
+    border-bottom: none;
+  }
+
+  th,
+  td {
+    padding: 1rem !important;
+  }
+
+  .title,
+  th {
+    font-weight: 600;
+  }
+
+  .topic-list-item.visited a.title:not(.badge-notification),
+  .latest-topic-list-item.visited a.title:not(.badge-notification),
+  .category-topic-link.visited a.title:not(.badge-notification) {
+    font-weight: 400;
+  }
+
+  .title:hover {
+    color: var(--tertiary) !important;
+  }
+
+  .topic-list-item-separator td {
+    padding: 0 !important;
+
+    span {
+      color: var(--danger);
+      font-weight: 600;
+      padding: 0 1rem;
+    }
+  }
+}

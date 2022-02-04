@@ -1,0 +1,149 @@
+.d-header {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+
+  #site-logo {
+    height: $header-logo-size;
+  }
+
+  &-icons {
+    .current-user .icon:hover {
+      box-shadow: 0 0 0 3px var(--tertiary-medium);
+    }
+
+    .current-user.active .icon {
+      box-shadow: 0 0 0 3px var(--tertiary);
+    }
+
+    .icon {
+      background-color: transparent !important;
+      border-radius: 9999px;
+      border: none !important;
+      height: $header-icon-size;
+      padding: 0.5rem;
+      width: $header-icon-size;
+
+      .d-icon {
+        color: var(--primary-medium);
+      }
+
+      &:hover .d-icon {
+        color: var(--primary) !important;
+      }
+    }
+
+    .icon img.avatar {
+      height: $header-avatar-size;
+      width: $header-avatar-size;
+    }
+
+    .active {
+      .d-icon,
+      &:hover .d-icon {
+        color: var(--tertiary) !important;
+      }
+
+      .icon:after {
+        border-top: none !important;
+      }
+    }
+
+    .badge-notification {
+      &.unread-notifications {
+        background-color: var(--tertiary);
+      }
+
+      &.unread-high-priority-notifications {
+        background: var(--danger);
+      }
+    }
+  }
+
+  .menu-panel {
+    background-color: var(--header_background);
+
+    hr {
+      margin: 0.25rem 0;
+    }
+
+    .quick-access-panel {
+      border-top: none;
+      padding-top: 0.5rem;
+
+      li:not(.read) {
+        background-color: var(--tertiary-low) !important;
+        border-radius: $border-radius;
+        margin-bottom: 2px;
+      }
+
+      &.quick-access-profile li,
+      .read {
+        background-color: transparent !important;
+        margin-bottom: 0.25rem;
+
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .widget-link,
+    .categories-link,
+    .read a,
+    .quick-access-panel li:not(.read) a,
+    .quick-access-panel .btn-flat,
+    .panel-body-bottom .btn {
+      border-radius: $border-radius;
+      margin: 0;
+      padding: 0.5rem 0.5rem !important;
+      transition: none;
+
+      .badge-notification {
+        background-color: var(--tertiary);
+        font-weight: 600;
+        padding: 0.25em 0.5em;
+      }
+
+      &:hover,
+      &:focus {
+        background-color: var(--tertiary) !important;
+        color: var(--secondary) !important;
+        font-weight: 600;
+
+        .d-icon,
+        span {
+          color: var(--secondary);
+        }
+
+        .badge-notification {
+          background-color: var(--secondary);
+          color: var(--tertiary);
+        }
+      }
+    }
+
+    .panel-body-bottom .widget-button {
+      font-weight: 600;
+      margin-left: 0.5rem;
+    }
+  }
+
+  .menu-links-header .menu-link {
+    border: none;
+    border-bottom: 1px solid var(--primary-low) !important;
+
+    &:hover,
+    &:focus {
+      background: none !important;
+      margin-top: 0 !important;
+    }
+
+    &.active {
+      border: none !important;
+      border-bottom: 2px solid var(--tertiary) !important;
+
+      .d-icon {
+        color: var(--tertiary) !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.badge-notification {
+  border-radius: 9999px;
+  font-weight: 600 !important;
+  padding: 0.25rem 0.5rem;
+
+  &.new-posts {
+    background-color: var(--tertiary);
+    color: var(--secondary);
+  }
+}

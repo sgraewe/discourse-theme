@@ -1,0 +1,14 @@
+.topic-post {
+  .boxed {
+    border-top: none;
+    padding: 0;
+
+    .contents {
+      padding-top: 1rem;
+    }
+  }
+
+  &:last-of-type {
+    padding-bottom: 1rem;
+  }
+}

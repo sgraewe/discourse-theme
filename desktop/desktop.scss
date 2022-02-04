@@ -1,0 +1,19 @@
+@import "common/foundation/variables";
+@import "variables";
+
+@import "desk/header";
+@import "desk/topic-post";
+
+// Main-Outlet
+// --------------------------------------------------
+#main-outlet {
+  margin: 3rem auto;
+  padding: 0;
+}
+
+// Container Posts
+// --------------------------------------------------
+.container.posts {
+  column-gap: 3rem;
+  grid-template-columns: auto 25%;
+}

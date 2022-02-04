@@ -1,0 +1,68 @@
+@import "colors/light";
+// @import "colors/dark";
+
+:root {
+  --primary: #{$primary};
+  --secondary: #{$secondary};
+  --tertiary: #{$tertiary};
+  --quaternary: #{$quaternary};
+  --header_background: #{$header_background};
+  --header_primary: #{$header_primary};
+  --highlight: #{$highlight};
+  --danger: #{$danger};
+  --success: #{$success};
+  --love: #{$love};
+
+  --always-black-rgb: 0, 0, 0;
+  --primary-rgb: #{hexToRGB($primary)};
+  --primary-low-rgb: #{hexToRGB($primary-low)};
+  --secondary-rgb: #{hexToRGB($secondary)};
+  --header_background-rgb: #{hexToRGB($header_background)};
+  --tertiary-rgb: #{hexToRGB($tertiary)};
+
+  --primary-very-low: #{$primary-very-low};
+  --primary-low: #{$primary-low};
+  --primary-low-mid: #{$primary-low-mid};
+  --primary-medium: #{$primary-medium};
+  --primary-high: #{$primary-high};
+  --primary-very-high: #{$primary-very-high};
+
+  --header_primary-low: #{$header_primary-low};
+  --header_primary-low-mid: #{$header_primary-low-mid};
+  --header_primary-medium: #{$header_primary-medium};
+  --header_primary-high: #{$header_primary-high};
+  --header_primary-very-high: #{$header_primary-very-high};
+
+  --secondary-low: #{$secondary-low};
+  --secondary-medium: #{$secondary-medium};
+  --secondary-high: #{$secondary-high};
+  --secondary-very-high: #{$secondary-very-high};
+
+  --tertiary-low: #{$tertiary-low};
+  --tertiary-medium: #{$tertiary-medium};
+  --tertiary-high: #{$tertiary-high};
+  --tertiary-hover: #{$tertiary-hover};
+
+  --quaternary-low: #{$quaternary-low};
+
+  --highlight-low: #{$highlight-low};
+  --highlight-medium: #{$highlight-medium};
+  --highlight-high: #{$highlight-high};
+
+  --danger-low: #{$danger-low};
+  --danger-low-mid: #{$danger-low-mid};
+  --danger-medium: #{$danger-medium};
+  --danger-hover: #{$danger-hover};
+
+  --success-low: #{$success-low};
+  --success-medium: #{$success-medium};
+  --success-hover: #{$success-hover};
+
+  --love-low: #{$love-low};
+
+  --notice: #{$notice};
+  --notice-low: #{$notice-low};
+
+  --notice-mod: #{$notice-mod};
+  --notice-mod-low: #{$notice-mod-low};
+}

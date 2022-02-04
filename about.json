@@ -1,0 +1,35 @@
+{
+  "name": "re:panda",
+  "license_url": "https://github.com/sgraewe/discourse-theme/blob/develop/LICENSE",
+  "assets": {
+    "font": "assets/fonts/inter.woff2",
+    "body-bg-img": "assets/images/body-bg-img.png",
+    "body-bg-img-dark": "assets/images/body-bg-img-dark.png"
+  },
+  "color_schemes": {
+    "re:panda": {
+      "primary": "27272a",
+      "secondary": "ffffff",
+      "tertiary": "0d9488",
+      "quaternary": "0d9488",
+      "header_background": "ffffff",
+      "header_primary": "27272a",
+      "highlight": "2dd4bf",
+      "danger": "f87171",
+      "success": "4ade80",
+      "love": "fb7185"
+    },
+    "re:panda Dark": {
+      "primary": "ffffff",
+      "secondary": "27272a",
+      "tertiary": "0d9488",
+      "quaternary": "0d9488",
+      "header_background": "ff0000",
+      "header_primary": "27272a",
+      "highlight": "2dd4bf",
+      "danger": "f87171",
+      "success": "4ade80",
+      "love": "fb7185"
+    }
+  }
+}

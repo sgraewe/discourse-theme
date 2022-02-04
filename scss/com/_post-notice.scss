@@ -1,0 +1,24 @@
+.post-notice {
+  background-color: var(--notice-low);
+  border-radius: $border-radius;
+  border-top: none;
+  color: var(--notice);
+  margin-bottom: 2rem;
+  max-width: 100%;
+  padding: 1rem;
+  width: 100%;
+
+  .d-icon {
+    color: var(--notice);
+  }
+
+  &.custom {
+    background-color: var(--notice-mod-low);
+    color: var(--notice-mod);
+    font-weight: 600;
+
+    .d-icon {
+      color: var(--notice-mod);
+    }
+  }
+}
