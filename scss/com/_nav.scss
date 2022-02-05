@@ -1,7 +1,8 @@
 .nav {
-  .nav-pills {
-    a {
-      @include btn;
-    }
+}
+
+.nav-pills {
+  a {
+    @include btn;
   }
 }
