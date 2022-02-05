@@ -1,8 +1,10 @@
-.nav {
-}
-
 .nav-pills {
   a {
     @include btn;
+
+    &:hover {
+      background: var(--primary-medium);
+      color: var(--secondary);
+    }
   }
 }
