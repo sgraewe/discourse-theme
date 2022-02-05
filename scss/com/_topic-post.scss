@@ -15,7 +15,7 @@
   }
 
   .post-controls .actions button {
-    border-radius: 4px;
+    border-radius: $border-radius;
   }
 
   .post-actions {
@@ -23,7 +23,7 @@
   }
 
   .topic-map {
-    border-radius: 4px;
+    border-radius: $border-radius;
     border: 1px solid var(--primary-low) !important;
     margin-bottom: 0;
     overflow: hidden;
