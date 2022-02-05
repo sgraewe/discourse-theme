@@ -1,9 +1,9 @@
 .topic-timeline {
   .timeline-scrollarea {
-    border-color: var(--tertiary-or-white);
+    border-color: var(--tertiary-or-white) !important;
   }
 
   .timeline-handle {
-    background-color: var(--tertiary-or-white);
+    background-color: var(--tertiary-or-white) !important;
   }
 }
