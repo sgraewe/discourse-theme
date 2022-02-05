@@ -6,5 +6,11 @@
       background: var(--primary-low) !important;
       color: var(--primary) !important;
     }
+
+    &.active {
+      background-color: var(--quaternary) !important;
+      color: var(--secondary) !important;
+      font-weight: 600;
+    }
   }
 }
