@@ -3,8 +3,8 @@
     @include btn;
 
     &:hover {
-      background: var(--primary-medium);
-      color: var(--secondary);
+      background: var(--primary-low) !important;
+      color: var(--primary) !important;
     }
   }
 }
