@@ -1,4 +1,5 @@
-#navigation-bar.nav-pills a {
+#navigation-bar.nav-pills a,
+.user-main.nav-pills a {
   @include btn;
   height: 3rem;
   max-height: 3rem;
