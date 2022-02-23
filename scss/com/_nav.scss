@@ -1,16 +1,18 @@
-.nav.nav-pills a {
-  @include btn;
-  height: 3rem;
-  max-height: 3rem;
+.nav {
+  .nav-pills a {
+    @include btn;
+    height: 3rem;
+    max-height: 3rem;
 
-  &:hover {
-    background: var(--primary-low) !important;
-    color: var(--primary) !important;
-  }
+    &:hover {
+      background: var(--primary-low) !important;
+      color: var(--primary) !important;
+    }
 
-  &.active {
-    background-color: var(--quaternary) !important;
-    color: var(--secondary) !important;
-    font-weight: 600;
+    &.active {
+      background-color: var(--quaternary) !important;
+      color: var(--secondary) !important;
+      font-weight: 600;
+    }
   }
 }
