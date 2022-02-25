@@ -3,6 +3,13 @@
   margin-bottom: 0.5rem;
   padding: 1rem;
 
+  &.moderator .regular > .cooked {
+    background-color: var(--notice-mod-low);
+    color: var(--primary);
+    font-weight: 600;
+    padding: 1rem;
+  }
+
   .topic-avatar,
   .topic-body {
     border-top: none !important;
