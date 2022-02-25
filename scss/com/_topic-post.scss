@@ -5,6 +5,7 @@
 
   &.moderator .regular > .cooked {
     background-color: var(--notice-mod-low);
+    border-radius: $border-radius;
     color: var(--primary);
     font-weight: 600;
     padding: 1rem;
