@@ -18,6 +18,14 @@
     border-radius: $border-radius;
   }
 
+  .double-button .button-count:not(.my-likes) {
+    border-radius: $border-radius 0 0 $border-radius;
+  }
+
+  .double-button .button-count + .toggle-like {
+    border-radius: 0 $border-radius $border-radius 0;
+  }
+
   .post-actions {
     margin-bottom: 0;
   }
