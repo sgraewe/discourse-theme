@@ -1,3 +1,21 @@
 .category-list {
   @include box;
+
+  th,
+  td {
+    padding: 1rem;
+
+    &:first-of-type {
+      padding-left: 1rem;
+    }
+  }
+
+  th {
+    color: var(--secondary-low);
+    font-weight: 600;
+  }
+
+  .latest {
+    padding: 0.25rem 0 1rem 1rem;
+  }
 }
