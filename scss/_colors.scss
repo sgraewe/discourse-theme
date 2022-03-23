@@ -1,5 +1,8 @@
 // Colors
 // --------------------------------------------------
+$header_primary: #fff;
+$header_primary-dark: #27272a;
+
 $primary-very-low: #fafafa;
 $primary-low: #e4e4e7;
 $primary-low-mid: #d4d4d8;
@@ -36,7 +39,7 @@ $notice-mod-low: #fef08a;
   --tertiary: #{$tertiary};
   --quaternary: #{$quaternary};
   --header_background: #{$header_background};
-  --header_primary: #{$header_primary};
+  --header_primary: dark-light-choose($header_primary, $header_primary-dark);
   --highlight: #{$highlight};
   --danger: #{$danger};
   --success: #{$success};
